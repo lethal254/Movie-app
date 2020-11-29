@@ -41,7 +41,7 @@ function MoviesList() {
       .catch((err) => {
         console.log(err);
       });
-  }, [searchTerm]);
+  });
 
   return (
     <div>
